@@ -21,6 +21,14 @@ h1, h2, h3, h4, h5, h6{
     background: #37a0a0;
 }
 
+.hidden{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+}
+
 .top-header{
     text-align:center;
 }
@@ -110,4 +118,38 @@ h1, h2, h3, h4, h5, h6{
     letter-spacing: .1em;
     font-weight: normal;
 
+}
+
+.footer{
+    background: #25303e;
+    color: #83969f;
+    text-align: center;
+    padding-bottom: 2em; 
+}
+
+.footer-menushare{
+    background: #303d4c;
+    padding: .2em;
+}
+
+.footer-menushare ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.footer-menushare li{
+    display: inline-block;
+    margin: 1em;
+}
+
+.footer-menushare a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-menushare a:hover{
+    opacity: .8;
 }
