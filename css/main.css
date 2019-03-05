@@ -8,6 +8,12 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Oxygen";
 }
 
+.clearfix:after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
 .button{
     display: inline-block;
     padding: .75em 2.5em;
@@ -152,4 +158,42 @@ h1, h2, h3, h4, h5, h6{
 
 .footer-menushare a:hover{
     opacity: .8;
+}
+
+@media screen and (min-width: 48.75em){
+    
+    .top-header-logo{
+        float: left;
+    }
+
+    .top-nav{
+        background: transparent;
+        float: right;
+        margin-top: 2.2em;
+    }
+
+    .top-nav ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-nav li{
+        display: inline-block;
+    }
+
+    .top-nav a{
+        color: #713a84;
+    }
+    
+    .top-nav a:hover{
+        background: #e7d9fc;
+    }
+    .top-content{
+        background: #521a66;
+        color: white;  
+    }
+
+    .top-content-title, .top-content-subtitle{
+        color: white;
+    }
 }
